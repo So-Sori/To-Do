@@ -1,0 +1,154 @@
+/* Monsertar */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+:root{
+    --verde-oscuro:#678D58;
+    --verde-claro:#A6C48A;
+    --amarillo:#F6E7CB;
+    --coral-pink:#DD9787;
+}
+body{
+background-color: #EFCEFA;
+}
+.container{
+    width: 30%;
+    height: auto;
+    margin: 30px auto;
+    text-align: center;
+    padding: 15px 10px;
+    background-color:var(--coral-pink);
+    border-radius: 5px;
+}
+.search,.li-container,.empty{
+    margin: 20px 0;
+}
+.search input{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.search button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: var(--verde-oscuro);
+}
+.empty{
+    font-weight: bold;
+    color: var(--amarillo);
+}
+ul li{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    padding: 10px;
+}
+ul li p{
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    background-color: aliceblue;
+    text-transform: capitalize;
+    overflow-wrap: break-word;
+}
+ul li button{
+    padding: 12px 10px;
+    background-color: aliceblue;
+    background-color:rgb(255, 57, 57);
+    border: none;
+    border-radius: 2px;
+}
+
+/* Estilos pomodoro */
+.pomodoro{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    border-radius: 5px;
+
+    text-align: center;
+    background-color: var(--verde-oscuro
+    );
+    color: var(--coral-pink);
+    padding: 15px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.pomodoro .btns{
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.pomodoro .btns .btn input{
+    width: 80%;
+    height: auto;
+    margin: 10px;
+    padding: 2px 5px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 2px;
+
+}
+
+.btn-start{
+    width: 100%;
+    height: auto;
+}
+.btn-start button{
+    height: auto;
+    padding: 10px 30px;
+    background-color: var(--amarillo);
+    color: var();
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.btns-time{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+.btns-time button{
+    height: auto;
+    margin: 15px;
+    border-radius: 5px;
+    border: none;
+
+    text-align: center;
+    background-color: var(--verde-oscuro);
+    color: var(--coral-pink);
+    padding: 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/* Hovers */
+button:hover{
+    transition: .6s;
+
+    
+}
